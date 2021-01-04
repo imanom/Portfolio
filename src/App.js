@@ -6,7 +6,7 @@ import Header from './Components/Header';
 import Footer from './Components/Footer';
 import About from './Components/About';
 import Resume from './Components/Resume';
-
+import { Helmet } from "react-helmet";
 
 class App extends Component {
 
@@ -44,6 +44,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <Helmet>
+        <title>Monami's Portfolio</title>
+        <meta name="description" content="Monami Dutta Gupta's personal page" />
+        <meta name="keywords" content="monami,dutta gupta,portfolio" />
+        <meta name="google-site-verification" content="i2tf3LajB_MutCLT5bWArmJB5-mg21WVVeCxB6Wim4o" />
+        </Helmet>
         <Header data={this.state.resumeData.main}/>
         <About data={this.state.resumeData.main}/>
         <Resume data={this.state.resumeData.resume}/>
