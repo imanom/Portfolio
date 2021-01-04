@@ -1,0 +1,137 @@
+{
+  "main": {
+    "name":"Monami Dutta Gupta",
+    "occupation":"Backend Developer | Software Developer",
+    "description":"I am currently pursuing my Master's in Computer Engineering from Virginia Tech",
+    "image":"profilepic.jpg",
+    "bio":"An incoming master's in Computer Engineering student at Virginia Tech, I am a technology enthusiast. I strongly believe in the language-agnostic approach and am ready to develop solutions in newer and efficient technologies. Mostly working on web/app development, I am proficient in backend development using Node.js and Python with a knack for frontend development and styling using React and Angular. Being involved in projects delivering end to end B2X solutions to customers, I believe in the importance of creating modular, clean, and testable code and can vouch for the efficiency of the Agile methodology. During my spare time, I can be found reading, practicing my coding skills, and dabbling in new areas.",
+    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "monamidg@gmail.com",
+    "phone": "",
+    "home":{
+      "city":"Bengaluru",
+      "state":"Karnataka",
+      "country":"India"
+    },
+    "address":{
+      "street":"Blacksburg",
+      "city":"Virginia ",
+      "state":"United States",
+      "zip": "24061"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"https://drive.google.com/file/d/1vTQpTaxifNdVRL0xBBgLRyi4gRxyGMl3/view?usp=sharing",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/monami.d.gupta/",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/monamidg/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"https://www.instagram.com/mon_ami_dg/",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/imanom",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"",
+    "education":[
+      {
+        "school":"Virginia Tech",
+        "degree":"Masters in Computer Engineering",
+        "graduated":"Jan 2021 - Dec 2022",
+        "description":""
+      },
+      {
+        "school":"Manipal Institute of Technology",
+        "degree":"B.Tech in Electronics & Communication",
+        "graduated":"Jul 2013 - May 2017",
+        "description":""
+      }
+    ],
+    "work":[
+      {
+        "company":"Wipro",
+        "title":"Consultant ",
+        "years":"Aug 2017 - Nov 2020",
+        "description":"• Part of the Research & Development team of Communications Business Unit, responsible for developing IPs and Patents for the company. \n • Created software solutions for telecom and IT use-cases as a Full-stack and Blockchain developer which have been showcased at Barcelona in Mobile World Congress 2018, as well as, 2019. \n • Developed and launched the KYON sales app in the Communications BU at Wipro, on August 2019, to provide easy access to offers and case-studies to all employees. \n • Created efficient backend systems by using caching, content management frameworks, optimized REST APIs, and modeling database schemas."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Java",
+        "level":"70%"
+      },
+      {
+        "name":"Python",
+        "level":"70%"
+      },
+      {
+        "name":"NodeJS",
+        "level":"90%"
+      },
+      {
+        "name":"MongoDB",
+        "level":"80%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"50%"
+      },
+      {
+        "name":"MySQL",
+        "level":"70%"
+      },
+      {
+        "name":"React Native",
+        "level":"50%"
+      }
+      
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"canadian-wanderlust.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"Fury Fighting Gear",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"fury-fighting-gear.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"original-thai-food.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"resume-website.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Smirkspace",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"smirkspace.jpg",
+        "url":"http://www.smirkspace.com"
+      }
+    ]
+  }
+}
