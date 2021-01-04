@@ -46,17 +46,16 @@ class App extends Component {
       <div className="App">
         
         <Helmet>
-        <title>Monami's Portfolio</title>
+        <title>Monami's Page</title>
+        <meta charset="utf-8"/>
+        <meta name="robots" content="index,follow"/>
         <meta name="description" content="Monami Dutta Gupta's personal page" />
         <meta name="keywords" content="monami,dutta gupta,portfolio" />
-        <meta name="google-site-verification" content="i2tf3LajB_MutCLT5bWArmJB5-mg21WVVeCxB6Wim4o" />
+        
         </Helmet>
         <Header data={this.state.resumeData.main}/>
         <About data={this.state.resumeData.main}/>
         <Resume data={this.state.resumeData.resume}/>
-        {/* <Portfolio data={this.state.resumeData.portfolio}/>
-        <Testimonials data={this.state.resumeData.testimonials}/> 
-        <Contact data={this.state.resumeData.main}/>*/}
         <Footer data={this.state.resumeData.main}/>
       </div>
     );
