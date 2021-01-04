@@ -44,6 +44,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        
         <Helmet>
         <title>Monami's Portfolio</title>
         <meta name="description" content="Monami Dutta Gupta's personal page" />
