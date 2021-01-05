@@ -46,11 +46,11 @@ class App extends Component {
       <div className="App">
         
         <Helmet>
-        <title>Monami's Page</title>
+        <title>Monami Dutta Gupta</title>
         <meta charset="utf-8"/>
         <meta name="robots" content="index,follow"/>
-        <meta name="description" content="Monami Dutta Gupta's personal page" />
-        <meta name="keywords" content="monami,dutta gupta,portfolio" />
+        <meta name="description" content="Welcome to Monami Dutta Gupta's personal page - feel free to stroll through." />
+        <meta name="keywords" content="monami,dutta gupta,portfolio, monamidg" />
         
         </Helmet>
         <Header data={this.state.resumeData.main}/>
