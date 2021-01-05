@@ -1,12 +1,18 @@
 import React, { Component } from 'react';
 
+function NewlineText(props) {
+   const text = props.text;
+   return text.split('\n').map(str => <p>{str}</p>);
+ }
+
 class About extends Component {
   render() {
 
     if(this.props.data){
-      var name = this.props.data.name;
+      var name = this.props.data.firstname+" "+this.props.data.lastname;
       var profilepic= "images/"+this.props.data.image;
-      var bio = this.props.data.bio;
+      var bio = <NewlineText text={this.props.data.bio} />;
+      
       var street = this.props.data.address.street;
       var city = this.props.data.address.city;
       var state = this.props.data.address.state;
@@ -14,6 +20,7 @@ class About extends Component {
       //var phone= this.props.data.phone;
       var email = this.props.data.email;
       var resumeDownload = this.props.data.resumedownload;
+      
     }
 
     return (

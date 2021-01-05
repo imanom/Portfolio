@@ -1,10 +1,11 @@
 {
   "main": {
-    "name":"Monami Dutta Gupta",
+    "firstname":"Monami",
+    "lastname":"Dutta Gupta",
     "occupation":"Backend Developer | Software Developer",
-    "description":"I am presently pursuing my Master's in Computer Engineering from Virginia Tech",
+    "description":"At present I am pursuing my Master's degree in Computer Engineering from Virginia Tech",
     "image":"profilepic.jpg",
-    "bio":"An incoming master's in Computer Engineering student at Virginia Tech, I am a technology enthusiast. I strongly believe in the language-agnostic approach and am ready to develop solutions in newer and efficient technologies. Mostly working on web/app development, I am proficient in backend development using Node.js and Python with a knack for frontend development and styling using React and Angular. Being involved in projects delivering end to end B2X solutions to customers, I believe in the importance of creating modular, clean, and testable code and can vouch for the efficiency of the Agile methodology. During my spare time, I can be found reading, practicing my coding skills, and dabbling in new areas.",
+    "bio":"An incoming master's in Computer Engineering student at Virginia Tech, I am a technology enthusiast. I strongly believe in the language-agnostic approach and am ready to develop solutions in newer and efficient technologies. \nMostly working on web/app development, I am proficient in backend development using Node.js and Python with a knack for frontend development and styling using React and Angular. Being involved in projects delivering end to end B2X solutions to customers, I believe in the importance of creating modular, clean, and testable code and can vouch for the efficiency of the Agile methodology. \nDuring my spare time I can be found reading, strumming my guitar, practicing my coding skills, or dabbling in new technologies such as machine learing and NLP. \nPlease feel free to reach out to me using my email-id listed below or any of the linked social sites!",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "monamidg@gmail.com",
     "phone": "",
@@ -45,7 +46,7 @@
     ]
   },
   "resume":{
-    "skillmessage":"",
+    "skillmessage":"I am an explorer and tinker with a variety of tech, but these are the programming skills which I use most frequently at work/personal projects.",
     "education":[
       {
         "school":"Virginia Tech",
@@ -68,33 +69,71 @@
         "description":"• Part of the Research & Development team of Communications Business Unit, responsible for developing IPs and Patents for the company. \n • Created software solutions for telecom and IT use-cases as a Full-stack and Blockchain developer which have been showcased at Barcelona in Mobile World Congress 2018, as well as, 2019. \n • Developed and launched the KYON sales app in the Communications BU at Wipro, on August 2019, to provide easy access to offers and case-studies to all employees. \n • Created efficient backend systems by using caching, content management frameworks, optimized REST APIs, and modeling database schemas."
       }
     ],
+    
     "skills":[
       {
+        "category":"Programming",
         "name":"Java",
         "level":"70%"
       },
       {
+        "category":"Programming",
         "name":"Python",
         "level":"70%"
       },
       {
-        "name":"NodeJS",
+        "category":"Programming",
+        "name":"Javascript",
+        "level":"70%"
+      },
+      {
+        "category":"Back-end",
+        "name":"Node.js",
         "level":"90%"
       },
       {
+        "category":"Back-end",
+        "name":"Express.js",
+        "level":"90%"
+      },
+      {
+        "category":"Back-end",
+        "name":"Flask",
+        "level":"90%"
+      },
+      {
+        "category":"Databases",
         "name":"MongoDB",
         "level":"80%"
       },
       {
-        "name":"ReactJs",
+        "category":"Databases",
+        "name":"Redis",
+        "level":"80%"
+      },
+      {
+        "category":"Front-end",
+        "name":"React.js",
         "level":"50%"
       },
       {
+        "category":"Databases",
         "name":"MySQL",
         "level":"70%"
       },
       {
+        "category":"Front-end",
         "name":"React Native",
+        "level":"50%"
+      },
+      {
+        "category":"Others",
+        "name":"Git",
+        "level":"50%"
+      },
+      {
+        "category":"Others",
+        "name":"Socket.IO",
         "level":"50%"
       }
       

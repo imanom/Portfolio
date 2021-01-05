@@ -19,13 +19,13 @@ class Footer extends Component {
            </ul>
 
            <ul className="copyright">
-             <li>Made by Monami Dutta Gupta.</li>
-              {/* <li>&copy; Copyright 2017 Tim Baker</li>
-              <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li> */}
+             
+               <li>&copy; Copyright 2021 Monami Dutta Gupta</li>
+              <li>Created using <a title="Styleshout" href="https://reactjs.org/">React</a> and hosted on <a title="Styleshout" href="https://www.netlify.com/">Netlify</a> </li> 
            </ul>
 
         </div>
-        <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open"></i></a></div>
+        <div id="go-top"><a className="smoothscroll" href="#home"><i className="icon-up-open"></i></a></div>
      </div>
   </footer>
     );

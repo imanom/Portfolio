@@ -4,7 +4,8 @@ class Header extends Component {
   render() {
 
     if(this.props.data){
-      var name = this.props.data.name;
+      var firstname = this.props.data.firstname;
+      var lastname = this.props.data.lastname;
       var occupation= this.props.data.occupation;
       var description= this.props.data.description;
       var city= this.props.data.address.city;
@@ -35,7 +36,7 @@ class Header extends Component {
 
       <div className="row banner">
          <div className="banner-text">
-            <h1 className="responsive-headline">I'm {name}.</h1>
+            <h1 className="responsive-headline">I'm <span className="firstname">{firstname}</span> {lastname}.</h1>
             <h3>I'm a {home} based <span>{occupation}</span>, currently living in {city}. {description}.</h3>
             <hr />
             <ul className="social">
