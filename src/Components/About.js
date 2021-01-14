@@ -13,7 +13,7 @@ class About extends Component {
       var profilepic= "images/"+this.props.data.image;
       var bio = <NewlineText text={this.props.data.bio} />;
       
-      var street = this.props.data.address.street;
+      var country = this.props.data.address.country;
       var city = this.props.data.address.city;
       var state = this.props.data.address.state;
       var zip = this.props.data.address.zip;
@@ -38,11 +38,11 @@ class About extends Component {
                   <h2>Contact Details</h2>
                   <p className="address">
 						   <span>{name}</span><br />
-						   <span>{street}<br />
+						   <span>{country}<br />
 						         {city} {state}, {zip}
                    </span><br />
 						   {/* <span>{phone}</span><br /> */}
-                     <span>{email}</span>
+                     <span class="email">{email}</span>
 					   </p>
                </div>
                <div className="columns download">

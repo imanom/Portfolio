@@ -5,7 +5,7 @@
     "occupation":"Backend Developer | Software Developer",
     "description":"At present I am pursuing my Master's degree in Computer Engineering from Virginia Tech",
     "image":"profilepic.jpg",
-    "bio":"An incoming master's in Computer Engineering student at Virginia Tech, I am a technology enthusiast. I strongly believe in the language-agnostic approach and am ready to develop solutions in newer and efficient technologies. \nMostly working on web/app development, I am proficient in backend development using Node.js and Python with a knack for frontend development and styling using React and Angular. Being involved in projects delivering end to end B2X solutions to customers, I believe in the importance of creating modular, clean, and testable code and can vouch for the efficiency of the Agile methodology. \nDuring my spare time I can be found reading, strumming my guitar, practicing my coding skills, or dabbling in new technologies such as machine learing and NLP. \nPlease feel free to reach out to me using my email-id listed below or any of the linked social sites!",
+    "bio":"A master's in Computer Engineering student at Virginia Tech, I am a technology enthusiast. I strongly believe in the language-agnostic approach and am ready to develop solutions in newer and efficient technologies. \nMostly working on web/app development, I am proficient in backend development using Node.js and Python with a knack for frontend development and styling using React and Angular. Being involved in projects delivering end to end B2X solutions to customers, I believe in the importance of creating modular, clean, and testable code and can vouch for the efficiency of the Agile methodology. \nDuring my spare time I can be found reading, strumming my guitar, practicing my coding skills, or dabbling in new technologies such as machine learing and NLP. \nPlease feel free to reach out to me using my email-id listed below or any of the linked social sites!",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "monamidg@gmail.com",
     "phone": "",
@@ -15,9 +15,9 @@
       "country":"India"
     },
     "address":{
-      "street":"Blacksburg",
-      "city":"Virginia ",
-      "state":"United States",
+      "city":"Blacksburg",
+      "state":"Virginia ",
+      "country":"United States",
       "zip": "24061"
     },
     "website": "http://www.timbakerdev.com",
