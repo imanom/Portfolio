@@ -2,10 +2,10 @@
   "main": {
     "firstname":"Monami",
     "lastname":"Dutta Gupta",
-    "occupation":"Backend Developer | Software Developer",
+    "occupation":"Systems Programmer | Software Developer",
     "description":"At present I am pursuing my Master's degree in Computer Engineering from Virginia Tech",
     "image":"profilepic.jpg",
-    "bio":"A master's in Computer Engineering student at Virginia Tech, I am a technology enthusiast. I strongly believe in the language-agnostic approach and am ready to develop solutions in newer and efficient technologies. \nMostly working on web/app development, I am proficient in backend development using Node.js and Python with a knack for frontend development and styling using React and Angular. Being involved in projects delivering end to end B2X solutions to customers, I believe in the importance of creating modular, clean, and testable code and can vouch for the efficiency of the Agile methodology. \nDuring my spare time I can be found reading, strumming my guitar, practicing my coding skills, or dabbling in new technologies such as machine learing and NLP. \nPlease feel free to reach out to me using my email-id listed below or any of the linked social sites!",
+    "bio":"A master's in Computer Engineering student at Virginia Tech, I am a technology enthusiast. I strongly believe in the language-agnostic approach and am ready to develop solutions in newer and efficient technologies. \nCurrently, as a part of my master's journey, I am delving deep into computer systems and systems programming - exploring the LLVM compiler and the Linux kernel.\n Having 3+ years of work experience in web/app development, I am proficient in backend development using Node.js, with a knack for frontend development using React. Being involved in projects delivering end to end B2X solutions to customers, I believe in the importance of creating modular, clean, and testable code and can vouch for the efficiency of the Agile methodology. \nPlease feel free to reach out to me using my email-id listed below or any of the linked social sites!",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "monamidg@gmail.com",
     "phone": "",
@@ -21,7 +21,7 @@
       "zip": "24061"
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload":"https://drive.google.com/file/d/1Iz3P1Ptl_CM6Q-euEOMeer5nAyeH1P1i/view?usp=sharing",
+    "resumedownload":"https://drive.google.com/file/d/1iuDLRni4zEUOeSI1-x64V401FDN1P12x/view?usp=sharing",
     "social":[
       {
         "name":"facebook",
@@ -63,14 +63,50 @@
     ],
     "work":[
       {
+        "company":"Systems Software Research Group, Virginia Tech",
+        "title":"Graduate Research Assistant ",
+        "years":"May 2021 - Present",
+        "description":"• Currently working on analysing the security of kernel applications using fuzzing tools such as libFuzzer and AFL. \n• Observing the application of fuzzing on large applications in the userspace using checkpoint tools like Criu."
+      },
+      {
         "company":"Wipro",
-        "title":"Consultant ",
+        "title":"Senior Software Engineer ",
         "years":"Aug 2017 - Nov 2020",
-        "description":"• Part of the Research & Development team of Communications Business Unit, responsible for developing IPs and Patents for the company. \n • Created software solutions for telecom and IT use-cases as a Full-stack and Blockchain developer which have been showcased at Barcelona in Mobile World Congress 2018, as well as, 2019. \n • Developed and launched the KYON sales app in the Communications BU at Wipro, on August 2019, to provide easy access to offers and case-studies to all employees. \n • Created efficient backend systems by using caching, content management frameworks, optimized REST APIs, and modeling database schemas."
+        "description":"• Part of the Research & Development team of Communications Business Unit, responsible for developing IPs and Patents for the company. \n • Created software solutions for telecom and IT use-cases as a Full-stack and Blockchain developer which have been showcased at Barcelona in Mobile World Congress 2018, as well as, 2019. \n • Led the backend team for developing the blockchain-based Mobile Number Portability solution, which aimed to eliminate middlemen by decentralizing the porting process using the Hyperledger Fabric platform. \n • Created efficient backend systems by using caching, content management frameworks, optimized REST APIs, and modeling database schemas."
       }
     ],
     
     "skills":[
+      {
+        "category":"Systems",
+        "name":"LLVM",
+        "level":"50%"
+      },
+      {
+        "category":"Systems",
+        "name":"UEFI",
+        "level":"50%"
+      },
+      {
+        "category":"Systems",
+        "name":"x86 architecture",
+        "level":"50%"
+      },
+      {
+        "category":"Operating Systems",
+        "name":"Linux",
+        "level":"50%"
+      },
+      {
+        "category":"Programming",
+        "name":"C",
+        "level":"70%"
+      },
+      {
+        "category":"Programming",
+        "name":"C++",
+        "level":"70%"
+      },
       {
         "category":"Programming",
         "name":"Java",
@@ -87,18 +123,13 @@
         "level":"70%"
       },
       {
-        "category":"Back-end",
+        "category":"Web technologies",
         "name":"Node.js",
         "level":"90%"
       },
       {
-        "category":"Back-end",
+        "category":"Web technologies",
         "name":"Express.js",
-        "level":"90%"
-      },
-      {
-        "category":"Back-end",
-        "name":"Flask",
         "level":"90%"
       },
       {
@@ -112,7 +143,7 @@
         "level":"80%"
       },
       {
-        "category":"Front-end",
+        "category":"Web technologies",
         "name":"React.js",
         "level":"50%"
       },
@@ -122,7 +153,7 @@
         "level":"70%"
       },
       {
-        "category":"Front-end",
+        "category":"Web technologies",
         "name":"React Native",
         "level":"50%"
       },
@@ -133,7 +164,7 @@
       },
       {
         "category":"Others",
-        "name":"Socket.IO",
+        "name":"Blockchain",
         "level":"50%"
       }
       
@@ -142,34 +173,28 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"ISO 9660 File System",
+        "category":"An implementation to perform higher-level operations (reading a file) using the low-level block I/O operations in UEFI. Reads the ISO file, and loads the kernel into memory.",
+        "url":"https://github.com/imanom/Iso-9660-FileSystem",
+        "image":"black.jpg"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"Static Heap Analyzer",
+        "category":"An intra-procedural static heap analyzer to detect liveness of heap data, implemented in llvm.",
+        "url":"https://github.com/imanom/StaticHeapAnalyzer",
+        "image":"black.jpg"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title":"Bootloader",
+        "category":"Implemented a basic bootloader with a dedicated kernel and userspace",
+        "url":"https://github.com/imanom/OS-Assignments",
+        "image":"black.jpg"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
+        "title":"LLVM optimizations",
+        "category":"Implemented several LLVM optimization and transformation passes.",
+        "url":"https://github.com/imanom/CompilerOptimizationAssignments",
+        "image":"black.jpg"
       }
     ]
   }
