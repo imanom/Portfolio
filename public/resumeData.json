@@ -2,7 +2,7 @@
   "main": {
     "firstname":"Monami",
     "lastname":"Dutta Gupta",
-    "occupation":"Systems Programmer | Software Developer",
+    "occupation":"Systems Software | Software Developer",
     "description":"At present I am pursuing my Master's degree in Computer Engineering from Virginia Tech",
     "image":"profilepic.jpg",
     "bio":"A master's in Computer Engineering student at Virginia Tech, I am a technology enthusiast. I strongly believe in the language-agnostic approach and am ready to develop solutions in newer and efficient technologies. \nCurrently, as a part of my master's journey, I am delving deep into computer systems and systems programming - exploring the LLVM compiler and the Linux kernel.\n Having 3+ years of work experience in web/app development, I am proficient in backend development using Node.js, with a knack for frontend development using React. Being involved in projects delivering end to end B2X solutions to customers, I believe in the importance of creating modular, clean, and testable code and can vouch for the efficiency of the Agile methodology. \nPlease feel free to reach out to me using my email-id listed below or any of the linked social sites!",
@@ -21,7 +21,7 @@
       "zip": "24061"
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload":"https://drive.google.com/file/d/1iuDLRni4zEUOeSI1-x64V401FDN1P12x/view?usp=sharing",
+    "resumedownload":"https://docs.google.com/document/d/17ilqNZDkGXrMi0OTBKJppeC71gvKhoQOf33mB911EDM/edit?usp=sharing",
     "social":[
       {
         "name":"facebook",
@@ -51,7 +51,8 @@
       {
         "school":"Virginia Tech",
         "degree":"Masters in Computer Engineering",
-        "graduated":"2021 - 2022",
+        "graduated":"2021 - 2022 (expected)",
+        "gpa":"GPA: 4.0/4.0",
         "description":""
       },
       {
@@ -62,11 +63,12 @@
       }
     ],
     "work":[
+  
       {
         "company":"Systems Software Research Group, Virginia Tech",
         "title":"Graduate Research Assistant ",
-        "years":"May 2021 - Present",
-        "description":"• Currently working on analysing the security of kernel applications using fuzzing tools such as libFuzzer and AFL. \n• Observing the application of fuzzing on large applications in the userspace using checkpoint tools like Criu."
+        "years":"May 2021 - Aug 2021",
+        "description":"• Optimizing the security of userspace applications by developing bi-directional fuzzers. \n • Developing kernel modules and syzkaller definitions to target the kernel network interface driver. "
       },
       {
         "company":"Wipro",
@@ -78,23 +80,43 @@
     
     "skills":[
       {
-        "category":"Systems",
+        "category":"OS & Compilers",
         "name":"LLVM",
         "level":"50%"
       },
       {
-        "category":"Systems",
+        "category":"OS & Compilers",
         "name":"UEFI",
         "level":"50%"
       },
       {
-        "category":"Systems",
+        "category":"OS & Compilers",
         "name":"x86 architecture",
         "level":"50%"
       },
       {
-        "category":"Operating Systems",
+        "category":"OS & Compilers",
         "name":"Linux",
+        "level":"50%"
+      },
+      {
+        "category":"OS & Compilers",
+        "name":"Xen hypervisor",
+        "level":"50%"
+      },
+      {
+        "category":"OS & Compilers",
+        "name":"Qemu",
+        "level":"50%"
+      },
+      {
+        "category":"OS & Compilers",
+        "name":"Virtualization",
+        "level":"50%"
+      },
+      {
+        "category":"OS & Compilers",
+        "name":"Compiler Optimizations",
         "level":"50%"
       },
       {
@@ -153,6 +175,11 @@
         "level":"70%"
       },
       {
+        "category":"Databases",
+        "name":"Elasticsearch",
+        "level":"70%"
+      },
+      {
         "category":"Web technologies",
         "name":"React Native",
         "level":"50%"
@@ -164,7 +191,12 @@
       },
       {
         "category":"Others",
-        "name":"Blockchain",
+        "name":"Agile",
+        "level":"50%"
+      },
+      {
+        "category":"Others",
+        "name":"Shell scripting",
         "level":"50%"
       }
       
@@ -194,6 +226,12 @@
         "title":"LLVM optimizations",
         "category":"Implemented several LLVM optimization and transformation passes.",
         "url":"https://github.com/imanom/CompilerOptimizationAssignments",
+        "image":"black.jpg"
+      },
+      {
+        "title":"Stock-tracker app",
+        "category":"A dashboard to track the price of your stocks, in real-time.",
+        "url":"https://github.com/imanom/Stock-Tracker-Dashboard",
         "image":"black.jpg"
       }
     ]

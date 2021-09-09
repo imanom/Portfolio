@@ -50,8 +50,8 @@
    /* About Section
    ------------------------------------------------------------------- */
    #about .profile-pic {
-      width: 114px;
-      height: 114px;
+      width: 131px;
+      height: 146px;
       margin-left: 12px;
    }
    #about .contact-details { width: 50%; }
@@ -217,8 +217,8 @@
    -------------------------------------------------------------------- */
    #about .profile-pic { 
       /* display: none;  */
-      width: 109px;
-      height: 101px;
+      width: 106px;
+      height: 124px;
       /* margin-left: -3px; */
       margin-top: -9px;
       float: right;
@@ -263,6 +263,13 @@
    /* ----------------------------------------------------------------- */
    #portfolio-wrapper .columns { margin-bottom: 40px; }
    .popup-modal {	max-width: 85%; }
+   .project-container {
+      width:100%;
+      padding:0;
+   }
+   .prev, .next {
+      display: none;
+   }
 
 
    /* Testimonials Section
