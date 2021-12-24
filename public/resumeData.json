@@ -2,8 +2,8 @@
   "main": {
     "firstname":"Monami",
     "lastname":"Dutta Gupta",
-    "occupation":"Systems Software | Software Developer",
-    "description":"At present I am pursuing my Master's degree in Computer Engineering from Virginia Tech",
+    "occupation":"Systems Software",
+    "description":"Currently, I am pursuing my Master's degree in Computer Engineering from Virginia Tech",
     "image":"profilepic.jpg",
     "bio":"A master's in Computer Engineering student at Virginia Tech, I am a technology enthusiast. I strongly believe in the language-agnostic approach and am ready to develop solutions in newer and efficient technologies. \nCurrently, as a part of my master's journey, I am delving deep into computer systems and systems programming - exploring the LLVM compiler and the Linux kernel.\n Having 3+ years of work experience in web/app development, I am proficient in backend development using Node.js, with a knack for frontend development using React. Being involved in projects delivering end to end B2X solutions to customers, I believe in the importance of creating modular, clean, and testable code and can vouch for the efficiency of the Agile methodology. \nPlease feel free to reach out to me using my email-id listed below or any of the linked social sites!",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
@@ -21,7 +21,7 @@
       "zip": "24061"
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload":"https://docs.google.com/document/d/17ilqNZDkGXrMi0OTBKJppeC71gvKhoQOf33mB911EDM/edit?usp=sharing",
+    "resumedownload":"https://drive.google.com/file/d/1iRUM-OJLHbmfaSbAzPM4oI-l0t6ttLXx/view?usp=sharing",
     "social":[
       {
         "name":"facebook",
