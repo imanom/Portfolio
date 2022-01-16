@@ -2,10 +2,10 @@
   "main": {
     "firstname":"Monami",
     "lastname":"Dutta Gupta",
-    "occupation":"Systems Software",
-    "description":"Currently, I am pursuing my Master's degree in Computer Engineering from Virginia Tech",
+    "occupation":"System Software",
+    "description":"Pursuing a Master's degree in Computer Engineering from Virginia Tech",
     "image":"profilepic.jpg",
-    "bio":"A master's in Computer Engineering student at Virginia Tech, I am a technology enthusiast. I strongly believe in the language-agnostic approach and am ready to develop solutions in newer and efficient technologies. \nCurrently, as a part of my master's journey, I am delving deep into computer systems and systems programming - exploring the LLVM compiler and the Linux kernel.\n Having 3+ years of work experience in web/app development, I am proficient in backend development using Node.js, with a knack for frontend development using React. Being involved in projects delivering end to end B2X solutions to customers, I believe in the importance of creating modular, clean, and testable code and can vouch for the efficiency of the Agile methodology. \nPlease feel free to reach out to me using my email-id listed below or any of the linked social sites!",
+    "bio":"A master's in Computer Engineering student at Virginia Tech, I am a technology enthusiast. I strongly believe in the language-agnostic approach and am ready to develop solutions in newer and efficient technologies. \n Currently, as a part of my master's journey, I am delving deep into computer systems and systems programming - exploring the LLVM compiler and the Linux kernel. System software excites me because this is the niche where you develop low-level technologies which will be used by developers and users alike - for example, improving the functionality of file management systems or operating systems. \n I moved to the States in Jan'21 from Assam, which is a state in the north-east part of India and is renowned for its tea. In my spare time I can be usually found with my nose buried inside a book or my kindle - I love to read! I have over the past two years tried to maintain a list of the books that I have been reading and they can be viewed on my Goodreads linked in my socials.\n I strive to constantly improve and push myself out of the comfort zone. I have taken up French classes, gotten pretty good at strumming my guitar, cooking new dishes, broadening my low-level C implementation skills - all taken up to immerse myself in new challenges. \nPlease feel free to reach out to me using my email-id listed below or any of the linked social sites!",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "monamidg@gmail.com",
     "phone": "",
@@ -20,7 +20,7 @@
       "country":"United States",
       "zip": "24061"
     },
-    "website": "http://www.timbakerdev.com",
+    "website": "",
     "resumedownload":"https://drive.google.com/file/d/1iRUM-OJLHbmfaSbAzPM4oI-l0t6ttLXx/view?usp=sharing",
     "social":[
       {
@@ -42,6 +42,11 @@
         "name":"github",
         "url":"https://github.com/imanom",
         "className":"fa fa-github"
+      },
+      {
+        "name":"goodreads",
+        "url":"https://www.goodreads.com/user/show/25982896-monami-dutta-gupta",
+        "className":"fa fa-goodreads"
       }
     ]
   },
@@ -65,10 +70,10 @@
     "work":[
   
       {
-        "company":"Systems Software Research Group, Virginia Tech",
-        "title":"Graduate Research Assistant ",
-        "years":"May 2021 - Aug 2021",
-        "description":"• Optimizing the security of userspace applications by developing bi-directional fuzzers. \n • Developing kernel modules and syzkaller definitions to target the kernel network interface driver. "
+        "company":"Intel Corporation",
+        "title":"Graduate Cloud Software Engineering Intern ",
+        "years":"Jan 2022 - May 2022",
+        "description":"• Will be primarily involved in projects in the field of cloud system software.\n\n "
       },
       {
         "company":"Wipro",
@@ -81,123 +86,90 @@
     "skills":[
       {
         "category":"OS & Compilers",
-        "name":"LLVM",
-        "level":"50%"
+        "name":"LLVM"
       },
       {
         "category":"OS & Compilers",
-        "name":"UEFI",
-        "level":"50%"
+        "name":"UEFI"
       },
       {
         "category":"OS & Compilers",
-        "name":"x86 architecture",
-        "level":"50%"
+        "name":"x86 architecture"
       },
       {
         "category":"OS & Compilers",
-        "name":"Linux",
-        "level":"50%"
+        "name":"Linux"
       },
       {
         "category":"OS & Compilers",
-        "name":"Xen hypervisor",
-        "level":"50%"
+        "name":"Xen hypervisor"
+      },
+      
+      {
+        "category":"OS & Compilers",
+        "name":"Virtualization"
       },
       {
         "category":"OS & Compilers",
-        "name":"Qemu",
-        "level":"50%"
-      },
-      {
-        "category":"OS & Compilers",
-        "name":"Virtualization",
-        "level":"50%"
-      },
-      {
-        "category":"OS & Compilers",
-        "name":"Compiler Optimizations",
-        "level":"50%"
+        "name":"Compiler Optimizations"
       },
       {
         "category":"Programming",
-        "name":"C",
-        "level":"70%"
+        "name":"C"
       },
       {
         "category":"Programming",
-        "name":"C++",
-        "level":"70%"
+        "name":"C++"
       },
       {
         "category":"Programming",
-        "name":"Java",
-        "level":"70%"
+        "name":"Java"
       },
       {
         "category":"Programming",
-        "name":"Python",
-        "level":"70%"
+        "name":"Python"
       },
       {
         "category":"Programming",
-        "name":"Javascript",
-        "level":"70%"
+        "name":"Javascript"
       },
       {
         "category":"Web technologies",
-        "name":"Node.js",
-        "level":"90%"
+        "name":"Node.js"
+      },
+      
+      {
+        "category":"Databases",
+        "name":"MongoDB"
+      },
+      {
+        "category":"Databases",
+        "name":"Redis"
       },
       {
         "category":"Web technologies",
-        "name":"Express.js",
-        "level":"90%"
-      },
-      {
-        "category":"Databases",
-        "name":"MongoDB",
-        "level":"80%"
-      },
-      {
-        "category":"Databases",
-        "name":"Redis",
-        "level":"80%"
+        "name":"React.js"
       },
       {
         "category":"Web technologies",
-        "name":"React.js",
-        "level":"50%"
+        "name":"REST API"
       },
       {
         "category":"Databases",
-        "name":"MySQL",
-        "level":"70%"
+        "name":"MySQL"
       },
+      
       {
-        "category":"Databases",
-        "name":"Elasticsearch",
-        "level":"70%"
-      },
-      {
-        "category":"Web technologies",
-        "name":"React Native",
-        "level":"50%"
+        "category":"Others",
+        "name":"Git"
       },
       {
         "category":"Others",
-        "name":"Git",
-        "level":"50%"
+        "name":"Agile"
       },
       {
         "category":"Others",
-        "name":"Agile",
-        "level":"50%"
-      },
-      {
-        "category":"Others",
-        "name":"Shell scripting",
-        "level":"50%"
+        "name":"Shell scripting"
       }
       
     ]

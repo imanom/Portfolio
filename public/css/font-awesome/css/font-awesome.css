@@ -1336,3 +1336,11 @@
 .fa-plus-square-o:before {
   content: "\f196";
 }
+.fa-goodreads:before {
+  content: "\f02d";
+}
+.fa-goodreads-g:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400; 
+  content: "\f3a9";
+}
