@@ -5,7 +5,7 @@
     "occupation":"System Software",
     "description":"Pursuing a Master's degree in Computer Engineering from Virginia Tech",
     "image":"profilepic.jpg",
-    "bio":"A master's in Computer Engineering student at Virginia Tech, I am a technology enthusiast. I strongly believe in the language-agnostic approach and am ready to develop solutions in newer and efficient technologies. \n Currently, as a part of my master's journey, I am delving deep into computer systems and systems programming - exploring the LLVM compiler and the Linux kernel. System software excites me because this is the niche where you develop low-level technologies which will be used by developers and users alike - for example, improving the functionality of file management systems or operating systems. \n I moved to the States in Jan'21 from Assam, which is a state in the north-east part of India and is renowned for its tea. In my spare time I can be usually found with my nose buried inside a book or my kindle - I love to read! I have over the past two years tried to maintain a list of the books that I have been reading and they can be viewed on my Goodreads linked in my socials.\n I strive to constantly improve and push myself out of the comfort zone. I have taken up French classes, gotten pretty good at strumming my guitar, cooking new dishes, broadening my low-level C implementation skills - all taken up to immerse myself in new challenges. \nPlease feel free to reach out to me using my email-id listed below or any of the linked social sites!",
+    "bio":"A master's in Computer Engineering student at Virginia Tech, I am a technology enthusiast. I strongly believe in the language-agnostic approach and am ready to develop solutions in newer and efficient technologies. \n Currently, as a part of my master's journey, I am delving deep into system software, (the interface in between hardware and software) - exploring the LLVM compiler, the Linux kernel, multithreading, computer architecture. \n I moved to the United States in Jan'21 from Assam, which is a state in the north-east part of India and is renowned for its tea. In my spare time I can be usually found with my nose buried inside a book or my kindle - I love to read! I have over the past two years tried to maintain a list of the books that I have been reading and they can be viewed on my Goodreads linked in my socials. \n\nPlease feel free to reach out to me using my email-id listed below or any of the linked social sites!",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "monamidg@gmail.com",
     "phone": "",
@@ -21,7 +21,7 @@
       "zip": "24061"
     },
     "website": "",
-    "resumedownload":"https://drive.google.com/file/d/1iRUM-OJLHbmfaSbAzPM4oI-l0t6ttLXx/view?usp=sharing",
+    "resumedownload":"https://drive.google.com/file/d/1L0VY46-h-xd-PUccyn8MxGzh9eqsbT4p/view?usp=sharing",
     "social":[
       {
         "name":"facebook",
@@ -68,16 +68,21 @@
       }
     ],
     "work":[
-  
+      {
+        "company":"Meta",
+        "title":"Production Engineering Intern ",
+        "years":"May 2022 - Aug 2022",
+        "description":"• Part of a team in Meta Reality Labs which is creating infrastructure to easily use confidential computing platforms with a hardware root of trust. \n • The motivation is to develop reliable infra to better support Meta's internal clients who need a trusted execution environment (TEE) to process sensitive data. \n • Developed a platform certificate service from scratch, which provides necessary certs to help clients verify the trusted execution environment’s authenticity.\n\n "
+      },
       {
         "company":"Intel Corporation",
-        "title":"Graduate Cloud Software Engineering Intern ",
+        "title":"Cloud System Software Engineering Intern ",
         "years":"Jan 2022 - May 2022",
-        "description":"• Will be primarily involved in projects in the field of cloud system software.\n\n "
+        "description":"• Involved in extending open-source tracing tools to include metrics from Intel's performance monitoring registers (PMU). • This feature will help trace and identify the cause of long-tail latencies in live production loads, achieving an overhead of less than 1% on compute and I/O intensive workloads.\n\n "
       },
       {
         "company":"Wipro",
-        "title":"Senior Software Engineer ",
+        "title":"Software Engineer ",
         "years":"Aug 2017 - Nov 2020",
         "description":"• Part of the Research & Development team of Communications Business Unit, responsible for developing IPs and Patents for the company. \n • Created software solutions for telecom and IT use-cases as a Full-stack and Blockchain developer which have been showcased at Barcelona in Mobile World Congress 2018, as well as, 2019. \n • Led the backend team for developing the blockchain-based Mobile Number Portability solution, which aimed to eliminate middlemen by decentralizing the porting process using the Hyperledger Fabric platform. \n • Created efficient backend systems by using caching, content management frameworks, optimized REST APIs, and modeling database schemas."
       }
@@ -123,15 +128,19 @@
       },
       {
         "category":"Programming",
-        "name":"Java"
-      },
-      {
-        "category":"Programming",
         "name":"Python"
       },
       {
         "category":"Programming",
+        "name":"Java"
+      },
+      {
+        "category":"Programming",
         "name":"Javascript"
+      },
+      {
+        "category":"Programming",
+        "name":"Shell"
       },
       {
         "category":"Web technologies",
@@ -148,11 +157,7 @@
       },
       {
         "category":"Web technologies",
-        "name":"React.js"
-      },
-      {
-        "category":"Web technologies",
-        "name":"REST API"
+        "name":"React"
       },
       {
         "category":"Databases",
@@ -165,11 +170,11 @@
       },
       {
         "category":"Others",
-        "name":"Agile"
+        "name":"Mercurial"
       },
       {
         "category":"Others",
-        "name":"Shell scripting"
+        "name":"Agile"
       }
       
     ]
