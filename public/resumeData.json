@@ -78,7 +78,7 @@
         "company":"Intel Corporation",
         "title":"Cloud System Software Engineering Intern ",
         "years":"Jan 2022 - May 2022",
-        "description":"• Involved in extending open-source tracing tools to include metrics from Intel's performance monitoring registers (PMU). • This feature will help trace and identify the cause of long-tail latencies in live production loads, achieving an overhead of less than 1% on compute and I/O intensive workloads.\n\n "
+        "description":"• Involved in extending open-source tracing tools to include metrics from Intel's performance monitoring registers (PMU). \n • This feature will help trace and identify the cause of long-tail latencies in live production loads, achieving an overhead of less than 1% on compute and I/O intensive workloads.\n\n "
       },
       {
         "company":"Wipro",
