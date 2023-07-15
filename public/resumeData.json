@@ -21,7 +21,7 @@
       "zip": "94404"
     },
     "website": "",
-    "resumedownload":"https://drive.google.com/file/d/10VtpuXw4ebKz2LrRFYvvN_h_kynpGaXs/view?usp=sharing",
+    "resumedownload":"https://docs.google.com/document/d/1e1R9-GknKOFHejNl4VNYdkUiZDQoU9Qr3vvp0VL98SY/edit?usp=sharing",
     "social":[
       {
         "name":"facebook",
@@ -69,7 +69,7 @@
     ],
     "work":[
       {
-        "company":"Intel",
+        "company":"Intel Corporation",
         "title":"Cloud Software Engineer ",
         "years":"Feb 2023 - Present",
         "description":"• Developed software to read Intel’s hardware PMU counter values and compute top-down metrics. \n • Evaluated performance of these metrics on bare-metal and KVM guest environments for x86 microarchitectures. \n • Observed around 1.5% overheads with compute and memory-intensive workloads. \n\n "
