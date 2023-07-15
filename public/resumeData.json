@@ -3,7 +3,7 @@
     "firstname":"Monami",
     "lastname":"Dutta Gupta",
     "occupation":"System Software",
-    "description":"Pursuing a Master's degree in Computer Engineering from Virginia Tech",
+    "description":"Presently working at Intel as a Cloud Software Engineer.",
     "image":"profilepic.jpg",
     "bio":"A master's in Computer Engineering student at Virginia Tech, I am a technology enthusiast. I strongly believe in the language-agnostic approach and am ready to develop solutions in newer and efficient technologies. \n Currently, as a part of my master's journey, I am delving deep into system software, (the interface in between hardware and software) - exploring the LLVM compiler, the Linux kernel, multithreading, computer architecture. \n I moved to the United States in Jan'21 from Assam, which is a state in the north-east part of India and is renowned for its tea. In my spare time I can be usually found with my nose buried inside a book or my kindle - I love to read! I have over the past two years tried to maintain a list of the books that I have been reading and they can be viewed on my Goodreads linked in my socials. \n\nPlease feel free to reach out to me using my email-id listed below or any of the linked social sites!",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
@@ -15,13 +15,13 @@
       "country":"India"
     },
     "address":{
-      "city":"Blacksburg",
-      "state":"Virginia ",
+      "city":"Foster City",
+      "state":"California ",
       "country":"United States",
-      "zip": "24061"
+      "zip": "94404"
     },
     "website": "",
-    "resumedownload":"https://drive.google.com/file/d/1L0VY46-h-xd-PUccyn8MxGzh9eqsbT4p/view?usp=sharing",
+    "resumedownload":"https://drive.google.com/file/d/10VtpuXw4ebKz2LrRFYvvN_h_kynpGaXs/view?usp=sharing",
     "social":[
       {
         "name":"facebook",
@@ -69,6 +69,13 @@
     ],
     "work":[
       {
+        "company":"Intel",
+        "title":"Cloud Software Engineer ",
+        "years":"Feb 2023 - Present",
+        "description":"• Developed software to read Intel’s hardware PMU counter values and compute top-down metrics. \n • Evaluated performance of these metrics on bare-metal and KVM guest environments for x86 microarchitectures. \n • Observed around 1.5% overheads with compute and memory-intensive workloads. \n\n "
+      },
+
+      {
         "company":"Meta",
         "title":"Production Engineering Intern ",
         "years":"May 2022 - Aug 2022",
@@ -90,32 +97,43 @@
     
     "skills":[
       {
-        "category":"OS & Compilers",
+        "category":"Systems skills",
         "name":"LLVM"
       },
       {
-        "category":"OS & Compilers",
+        "category":"Systems skills",
         "name":"UEFI"
       },
       {
-        "category":"OS & Compilers",
-        "name":"x86 architecture"
+        "category":"Systems skills",
+        "name":"x86 assembly"
       },
       {
-        "category":"OS & Compilers",
-        "name":"Linux"
+        "category":"Systems skills",
+        "name":"Linux kernel programming"
       },
       {
-        "category":"OS & Compilers",
+        "category":"Systems skills",
         "name":"Xen hypervisor"
       },
-      
       {
-        "category":"OS & Compilers",
+        "category":"Systems skills",
+        "name":"Qemu/KVM"
+      },
+      {
+        "category":"Systems skills",
+        "name":"Multithreading"
+      },
+      {
+        "category":"Systems skills",
+        "name":"Computer architecture"
+      },
+      {
+        "category":"Systems skills",
         "name":"Virtualization"
       },
       {
-        "category":"OS & Compilers",
+        "category":"Systems skills",
         "name":"Compiler Optimizations"
       },
       {
@@ -132,7 +150,7 @@
       },
       {
         "category":"Programming",
-        "name":"Java"
+        "name":"Rust"
       },
       {
         "category":"Programming",
@@ -203,12 +221,6 @@
         "title":"LLVM optimizations",
         "category":"Implemented several LLVM optimization and transformation passes.",
         "url":"https://github.com/imanom/CompilerOptimizationAssignments",
-        "image":"black.jpg"
-      },
-      {
-        "title":"Stock-tracker app",
-        "category":"A dashboard to track the price of your stocks, in real-time.",
-        "url":"https://github.com/imanom/Stock-Tracker-Dashboard",
         "image":"black.jpg"
       }
     ]
